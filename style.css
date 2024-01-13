@@ -1,0 +1,55 @@
+body{
+        background-color: white;
+}
+/* make a jumpscare if you hover over tic tac toe title */
+.title{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    position: fixed;
+    top: 13%;
+    left: 42.3%;
+    font-size: 50px;
+}
+.board{
+    position: fixed;
+    top: 40%;
+    left: 44%;
+    margin-top: -50px;
+    margin-left: -100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}   
+#restartButton{
+    text-align: center;
+    margin-top: 17%;
+    margin-left: .5%;
+}
+.restartBtn{
+    color:  black;
+    background-color: #d3d3d3;
+    width: 9%;
+}
+.restartBtn:hover{
+    background-color: #AAAAAA;
+}
+.cellContainer{
+    font-family: monospace;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cellContainer:hover {
+    background-color: #AAAAAA;
+}
+
+
+
